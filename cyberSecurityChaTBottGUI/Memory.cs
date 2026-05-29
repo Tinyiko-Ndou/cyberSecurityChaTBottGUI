@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace cyberSecurityChaTBottGUI
 {
-    class Memory
+    internal class Memory
     {
+        public static string UserName;
+        public static string FavouriteTopic;
     }
 }
