@@ -60,7 +60,7 @@
         // Finds the task number in the input and marks it complete
         private static string CompleteTask(string input)
         {
-            // Split the sentence into words and look for a number
+            
             string[] words = input.Split(' ');
 
             foreach (string word in words)

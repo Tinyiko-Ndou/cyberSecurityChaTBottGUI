@@ -4,7 +4,7 @@ namespace cyberSecurityChaTBottGUI
 {
     internal class MiniGame
     {
-        // Tracks whether a quiz is currently running
+        
         public static bool IsActive = false;
 
         // Tracks which question we are on and the score
