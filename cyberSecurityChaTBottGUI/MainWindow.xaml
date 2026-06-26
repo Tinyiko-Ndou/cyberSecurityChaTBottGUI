@@ -35,6 +35,6 @@
                     Height="35"
                     Click="SendButton_Click"/>
         </StackPanel>
-
+		
     </Grid>
 </Window>
