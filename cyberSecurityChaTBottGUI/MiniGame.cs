@@ -1,4 +1,4 @@
-﻿/*using System;
+﻿using System;
 
 namespace cyberSecurityChaTBottGUI
 {
@@ -14,15 +14,30 @@ namespace cyberSecurityChaTBottGUI
         // All questions, correct answers, and explanations
         private static string[] questions =
         {
-            "Q1: What should you do with a suspicious email?\nA) Reply  B) Delete  C) Report as phishing  D) Ignore",
+            "Q1: What should you do with a suspicious email?\nA) Reply" +
+                "  B) Delete " +
+                "  C) Report as phishing " +
+                "  D) Ignore",
             "Q2: True or False — Using the same password everywhere is safe.",
-            "Q3: Which is the strongest password?\nA) password123  B) MyDog2010  C) P@ssw0rd!  D) Xk#9mQ!vL2$",
+            "Q3: Which is the strongest password?\nA) password123" +
+                "  B) MyDog2010 " +
+                "  C) P@ssw0rd! " +
+                "  D) Xk#9mQ!vL2$",
             "Q4: True or False — HTTPS means a website is completely safe.",
-            "Q5: What is phishing?\nA) Malware  B) Fake emails to steal info  C) A firewall  D) A browser setting",
+            "Q5: What is phishing?\nA) Malware" +
+                " B) Fake emails to steal info  " +
+                " C) A firewall  " +
+                " D) A browser setting",
             "Q6: True or False — Public Wi-Fi is safe for online banking.",
-            "Q7: What does 2FA stand for?\nA) Two-Factor Authentication  B) Two-Firewall Access  C) Trusted File Authorisation  D) Transfer File Approval",
+            "Q7: What does 2FA stand for?\nA) Two-Factor Authentication " +
+                " B) Two-Firewall Access" +
+                " C) Trusted File Authorisation " +
+                " D) Transfer File Approval",
             "Q8: True or False — Antivirus software alone fully protects you online.",
-            "Q9: Which is social engineering?\nA) Installing antivirus  B) A hacker pretending to be IT support  C) Updating your browser  D) Using a password manager",
+            "Q9: Which is social engineering?\nA) Installing antivirus " +
+                " B) A hacker pretending to be IT support " +
+                " C) Updating your browser " +
+                " D) Using a password manager",
             "Q10: True or False — Ransomware locks your files and demands payment."
         };
 
@@ -100,4 +115,4 @@ namespace cyberSecurityChaTBottGUI
             return feedback + "\n\n" + questions[currentQuestion];
         }
     }
-}*/
+}
