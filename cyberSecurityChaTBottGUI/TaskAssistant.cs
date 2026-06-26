@@ -1,4 +1,4 @@
-﻿/*namespace cyberSecurityChaTBottGUI
+﻿namespace cyberSecurityChaTBottGUI
 {
     internal class TaskAssistant
     {
@@ -30,7 +30,7 @@
         // Pulls the task title and optional reminder out of the input
         private static string AddTask(string input)
         {
-            // Remove the trigger phrase to get the task content
+           
             string content = input;
             content = content.Replace("add task", "");
             content = content.Replace("create task", "");
@@ -78,4 +78,4 @@
             return "Please include the task number. Example: 'complete task #2'";
         }
     }
-}*/
+}
